@@ -1,0 +1,205 @@
+%------------------------
+% Resume Template
+% Author : Anupam Guin
+% Github : https://github.com/Anupam 
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+% \usepackage[pdftex]{hyperref}
+% \usepackage[pdftex,colorlinks=false]{hyperref} 
+\usepackage[colorlinks=true, linkcolor=black, filecolor=black, urlcolor=black, citecolor=black, linkbordercolor=white,pdftex]{hyperref} 
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+% \addtolength{\topmargin}{-.45in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}c}
+%   \textbf{{\LARGE Anupam Guin}} \\
+%   \href{https://github.com/anupamguin}{Github: ~~github.com/anupamguin} & Mobile:~~~+91-7585049588 \\
+%     \href{Linkedin: linkedin.com/in/anupam-guin-948b4718b}{Linkedin: linkedin.com/in/anupam-guin-948b4718b} & Email: \href{mailto:anupamguin7585@gmail.com}{anupamguin7585@gmail.com} \\
+% \end{tabular*}
+
+% \begin{center}
+%   \textbf{{\LARGE Anupam Guin}}
+% \end{center}
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \href{https://github.com/anupamguin}{Github: ~~github.com/anupamguin} & Mobile:~~~+91-7585049588 \\
+%   \href{Linkedin: linkedin.com/in/anupam-guin-948b4718b}{Linkedin: linkedin.com/in/anupam-guin-948b4718b} & Email: \href{mailto:anupamguin7585@gmail.com}{anupamguin7585@gmail.com} \\
+% \end{tabular*}
+
+\begin{center}
+  \textbf{{\LARGE Anupam Guin}}\\
+  \vspace{4pt}
+  \textit{\textbf{Full Stack Java Developer}}
+\end{center}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \href{https://github.com/anupamguin}{Github: ~~github.com/anupamguin} & Mobile:~~~+91-7585049588 \\
+  \href{Linkedin: linkedin.com/in/anupam-guin}{Linkedin: linkedin.com/in/anupam-guin} & Email: \href{mailto:anupamguin7585@gmail.com}{anupamguin7585@gmail.com} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Templecity Institute of Technology \& Engineering}{Bhubaneswar, Odisha, India}
+      {Bachelor of Technology - Computer Science Engineering;  CGPA: 8.27}{July 2018 - June 2022}
+    \resumeSubHeadingListEnd
+	    
+\vspace{.5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~\textbf{Java 21}, C}
+	\resumeSubItem{Backend}{~~~~\textbf{Spring Boot}, \textbf{Microservices Architecture}, Spring Cloud, \textbf{Spring Security}, Spring Webflux, \textbf{Kafka}}{~~~~~~~~~~~~~~~~~JPA, Spring MVC, RestFul API, J2EE (Servlets \& JSP) }
+ % \vspace{.1pt}
+ \resumeSubItem{Frontend}{~~~\textbf{React JS}, Redux, \textbf{Webpack}, JavaScript, \textbf{Microfrontends Architectures}, Progressive Web App (\textbf{PWA})}{~~~~~~~~~~~~~~~~~HTML, CSS, Bootstrap, Google Map API, Leaflet, Highcharts, Fusion Charts }
+	\resumeSubItem{Tools}{~~~~~~~~~\textbf{Kubernetes}, \textbf{Docker}, \textbf{SonarQube}, \textbf{Jenkins}, GIT, Linux, Maven}
+	\resumeSubItem{Platforms}{~~\textbf{AWS}, PostgreSQL, \textbf{Redis}, Nginx }
+	\resumeSubItem{Soft Skills}{~~Leadership, Software Development, Event Management, Troubleshooting, Debugging}
+
+\resumeSubHeadingListEnd
+\vspace{.5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{eTrans Solutions}{Kolkata,India}
+    {\textbf{Full Stack Java Developer}}{July 2021 - Present}
+    \vspace{-5pt}
+    \resumeItemListStart
+          \resumeItem{Microservices Architecture}
+          {Architects and optimized a scalable fault tolerance Microservices architecture using Spring Cloud Gateway, Eureka, RabbitMQ, and Spring Security with JWT, oAuth2. Achieved \textbf{30\%} improvement in System Performance and \textbf{25\%} faster deployment cycles.}
+          \vspace{3pt}
+          \resumeItem{Microfrontend Architecture}
+          {Led the design and implementation using React.js, Webpack 5 \& boosting, scalability, modularity, and maintainability by enabling independent deployment, developer autonomy by dependency \& component sharing and optimized performance through Caching, Compression (gzip, \textbf{Brotli}), allowing for offline uses by \textbf{PWA}.}
+          \vspace{3pt}
+          \resumeItem{Performance Optimization}{Implemented \textbf{Distributed Caching}, Load Balancing, Proxy and Performance tuning techniques, resulting in a \textbf{40\%} increase in application performance and a \textbf{20\%} reduction in infrastructure costs.}
+          \vspace{3pt}
+          \resumeItem{DevOps}{Expertise in robust deployment automation using \textbf{CI/CD} pipelines with Jenkins, Docker Containerization, Kubernetes. Deployed applications seamlessly to Production ensuring consistency and efficient Scaling proficiency.}
+          \vspace{3pt}
+          \resumeItem{Security Implementation \& Compliance}{Expertise in crafting secure authentication and authorization frameworks, reCaptcha, MFA, and utilizing encryption (AES, RSA, Data Masking). Experienced in \textbf{OWASP} security hardening, CSP, XSS protection, Brute force mitigation, \textbf{rate limiting}, and mitigating VAPT vulnerabilities.}
+      \resumeItemListEnd
+
+%-----------PROJECTS-----------------
+% \vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{VTrack System - Real estate System}{Engineered a comprehensive robust real estate system focusing on Analysis, administration, Payment processes etc. Leveraged Microservices with Spring Cloud and React JS that enhance user experience, system reliability, and security \& improve operational efficiency by \textbf{20\%}.}
+\vspace{8pt}
+\resumeSubItem{Distributed Caching Mechanism }{It Supports Multiple Nodes with quick uses of Cache to decrease the database hits by 55\% and improve the Performance. Tech - Spring Boot, Redis}
+\vspace{8pt}
+\resumeSubItem{Legacy Systems Modernization - Micro-Frontend Design}{Spearheaded the development \& deployment of micro-frontend architecture, allowing multiple teams to work independently while \textbf{plugging} features seamlessly. Improved performance with shared components \& dependencies, caching, and compression (gzip/Brotli) that compressed file size by 47-78\% and improved \textbf{latency} by 38\%. Implemented Nginx as \textbf{reverse proxy} and PWA's for offline uses.}
+\vspace{8pt}
+\resumeSubItem{Scheduled Rest API}{Implemented a Spring Boot Scheduler for automated GPS data transmission for 100K+ vehicles. Achieved \textbf{99.9\%} uptime with \textbf{fault tolerance} by applying \textbf{resilience} patterns, improving data reliability through effective error handling, and ensuring high-performance data throughput with \textbf{minimal latency}.}
+\vspace{5pt}
+\resumeSubItem{Vehicle Security Implement}{Developed solution for remotely locking trucks and disabling ignition in case of theft.}
+\vspace{8pt}
+\resumeSubItem{Real-time Vehicle Tracking}{Architected and deployed a feature-rich real-time vehicle tracking solution with features like geofencing, Asset positioning, Trip Analysis, \textbf{Live Tracking on Google Maps}, and more. Implemented extensive features on Maps, delivering complex solutions with high performance using Data structures and algorithms.}
+\vspace{8pt}
+\resumeSubItem{Stock Management System}{Optimized inventory management and streamlined business processes using Spring Boot and Microservices, managing millions of inventory items.}
+\resumeSubHeadingListEnd
+\vspace{1pt}
+\section{Certiﬁcation}
+\resumeSubHeadingListStart
+\resumeSubItem{NPTEL}{ Programming in Java conducted by \textbf{IIT KGP} \textbf{-} \href{https://archive.nptel.ac.in/content/noc/NOC20/SEM2/Ecertificates/106/noc20-cs58/Course/NPTEL20CS08S61811166031783.jpg}{link}}
+\vspace{4.2pt}
+\resumeSubItem{Geeks for Geeks}{11th Week DSA Workshop \textbf{-} \href{https://media.geeksforgeeks.org/courses/certificates/5392146f7c7cb279d36ec947ddc2179f.pdf\#zoom=50}{link}}
+\resumeSubHeadingListEnd
+% \vspace{.1pt}
+% \addtolength{\textheight}{1in} 
+% \raggedbottom 
+% \vspace{-1pt}
+%-----------Awards-----------------
+\section{Honors and Awards}
+\begin{description}[font=$\bullet$]
+\item {Awarded \textbf{Topper} 1\% in  \textbf{NPTEL Java} Examination conducted by \textbf{IIT Kharagpur} with  \textbf{97\%} Score \textbf{-} \href{https://archive.nptel.ac.in/content/noc/NOC20/SEM2/Ecertificates/106/noc20-cs58/Course/NPTEL20CS08S61811166031783.jpg}{link}}
+\vspace{1pt}
+\item {Attended an Ethical Hacking workshop at IIT Kharagpur \textbf{-} \href{https://drive.google.com/file/d/168tqLmMS4soxw08Ra0gmt7fbYO23bBPa/view?usp=sharing}{link}}
+\vspace{-5pt}
+
+
+\end{description}
+
+% \vspace{-5pt}
+% \section{Volunteer Experience}
+%   \resumeSubHeadingListStart
+% 	\resumeSubheading
+%     {Community Lead at Developer Student Clubs NSEC}{Kolkata, India}
+%     {Conducted online and offline technical \& soft-skills training impacting over 3000 students.}{Jan 2019 - Present}
+% \vspace{5pt}
+%     % \vspace{10pt}\textbf{\large{Community Experience}}
+%     \resumeSubheading
+%     {Event Organizer at Google Developers Group Kolkata}{Kolkata, India}
+%     {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2018 - Present}
+
+% \resumeSubHeadingListEnd
+
+\end{document}
